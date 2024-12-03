@@ -1,0 +1,178 @@
+{
+  "name": "hanseniase3",
+  "owner_org": "secretaria-de-estado-de-saude-ses",
+  "profile": "data-package",
+  "resources": [
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "dados_hanseniase",
+      "path": "data/dados_hanseniase.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "nu_notific",
+            "type": "integer"
+          },
+          {
+            "name": "dt_notific",
+            "type": "date"
+          },
+          {
+            "name": "nu_ano",
+            "type": "integer"
+          },
+          {
+            "name": "id_municip",
+            "type": "integer"
+          },
+          {
+            "name": "id_regiona",
+            "type": "string"
+          },
+          {
+            "name": "id_unidade",
+            "type": "integer"
+          },
+          {
+            "name": "dt_diag",
+            "type": "date"
+          },
+          {
+            "name": "sem_diag",
+            "type": "integer"
+          },
+          {
+            "name": "dt_nasc",
+            "type": "date"
+          },
+          {
+            "name": "nu_idade_n",
+            "type": "integer"
+          },
+          {
+            "name": "cs_sexo",
+            "type": "string"
+          },
+          {
+            "name": "cs_gestant",
+            "type": "integer"
+          },
+          {
+            "name": "cs_raca",
+            "type": "geopoint"
+          },
+          {
+            "name": "cs_escol_n",
+            "type": "geopoint"
+          },
+          {
+            "name": "sg_uf",
+            "type": "integer"
+          },
+          {
+            "name": "id_mn_resi",
+            "type": "integer"
+          },
+          {
+            "name": "id_rg_resi",
+            "type": "integer"
+          },
+          {
+            "name": "id_ocupa_n",
+            "type": "integer"
+          },
+          {
+            "name": "nu_lesoes",
+            "type": "geopoint"
+          },
+          {
+            "name": "formaclini",
+            "type": "geopoint"
+          },
+          {
+            "name": "avalia_n",
+            "type": "geopoint"
+          },
+          {
+            "name": "classopera",
+            "type": "geopoint"
+          },
+          {
+            "name": "modoentr",
+            "type": "geopoint"
+          },
+          {
+            "name": "mododetect",
+            "type": "geopoint"
+          },
+          {
+            "name": "bacilosco",
+            "type": "geopoint"
+          },
+          {
+            "name": "dtinictrat",
+            "type": "date"
+          },
+          {
+            "name": "esq_ini_n",
+            "type": "geopoint"
+          },
+          {
+            "name": "contreg",
+            "type": "geopoint"
+          },
+          {
+            "name": "nervosafet",
+            "type": "geopoint"
+          },
+          {
+            "name": "dt_noti_at",
+            "type": "date"
+          },
+          {
+            "name": "dtultcomp",
+            "type": "date"
+          },
+          {
+            "name": "classatual",
+            "type": "geopoint"
+          },
+          {
+            "name": "aval_atu_n",
+            "type": "geopoint"
+          },
+          {
+            "name": "esq_atu_n",
+            "type": "geopoint"
+          },
+          {
+            "name": "dose_receb",
+            "type": "geopoint"
+          },
+          {
+            "name": "contexam",
+            "type": "geopoint"
+          },
+          {
+            "name": "dtalta_n",
+            "type": "date"
+          },
+          {
+            "name": "tpalta_n",
+            "type": "geopoint"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    }
+  ],
+  "title": "Hanseniase3"
+}
