@@ -1,4 +1,4 @@
-name: hanseniase3
+name: hanseniase
 owner_org: secretaria-de-estado-de-saude-ses
 profile: data-package
 resources:
@@ -90,5 +90,5 @@ resources:
         - name: tpalta_n
           type: geopoint
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-title: Hanseniase3
+    title: Dados de Hanseníase
+title: Hanseniase
