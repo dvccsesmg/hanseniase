@@ -1,5 +1,5 @@
 {
-  "name": "hanseniase3",
+  "name": "hanseniase",
   "owner_org": "secretaria-de-estado-de-saude-ses",
   "profile": "data-package",
   "resources": [
@@ -171,8 +171,8 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Dados de Hanseníase"
     }
   ],
-  "title": "Hanseniase3"
+  "title": "Hanseniase"
 }
